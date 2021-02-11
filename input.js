@@ -1,6 +1,7 @@
 // IMPORT MODULES
 const { stdin } = require("process");
 
+// USER INPUT FUNCTION IMPLEMENTATION
 let connection;
 
 const handlUserInput = (key) => {
@@ -34,7 +35,6 @@ const setupInput = (conn) => {
 
   return stdin;
 };
-
 
 // EXPORT MODULES
 module.exports = {
