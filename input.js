@@ -25,6 +25,10 @@ const setupInput = (conn) => {
       conn.write('Move: down');
     } else if (key === 'd') {
       conn.write('Move: right');
+    } else if (key === 'q') {
+      conn.write('Say: NOM NOM');
+    } else if (key === 'e') {
+      conn.write('Say: HIGH SCORE WUB WUB');
     }
   });
 
